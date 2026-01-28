@@ -1,0 +1,12 @@
+name = "communication-test-game"
+main = "dist/index.html"
+compatibility_date = "2026-01-28"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
+
+[env.production]
+name = "communication-test-game"
