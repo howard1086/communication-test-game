@@ -4,9 +4,15 @@ compatibility_date = "2026-01-28"
 
 [site]
 bucket = "./dist"
+entry-point = "dist"
 
 [build]
 command = "npm run build"
 
 [env.production]
 name = "communication-test-game"
+
+# 静态网站配置
+[env.production.site]
+bucket = "./dist"
+entry-point = "dist"

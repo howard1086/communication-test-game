@@ -1,0 +1,16 @@
+{
+  "envId": "comm-game-5gtgfy6r88110c18",
+  "framework": {
+    "name": "communication-test-game",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-client",
+        "inputs": {
+          "repositoryPath": "dist",
+          "outputPath": "dist",
+          "cloudPath": "/communication-test-game"
+        }
+      }
+    }
+  }
+}
