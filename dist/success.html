@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>通信设计院小游戏 - 部署成功</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .status {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(76, 175, 80, 0.2);
+            border-radius: 15px;
+            border: 1px solid rgba(76, 175, 80, 0.3);
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 1.2em;
+            margin: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+        }
+        .info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            border-left: 4px solid #667eea;
+        }
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .tech-badge {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 部署成功！</h1>
+        
+        <div class="status">
+            <h2>通信设计院小游戏</h2>
+            <p>您的游戏已成功部署到 Cloudflare Pages！</p>
+        </div>
+        
+        <div class="tech-stack">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Vite</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">Cloudflare Pages</span>
+        </div>
+        
+        <div style="margin: 30px 0;">
+            <a href="index.html" class="button">🚀 开始测试</a>
+            <a href="landing.html" class="button">🏠 返回主页</a>
+        </div>
+        
+        <div class="info">
+            <h3>✅ 部署状态</h3>
+            <p>• Cloudflare Pages 部署成功</p>
+            <p>• 静态文件已上传至全球 CDN</p>
+            <p>• HTTPS 证书自动配置</p>
+            <p>• 全球加速网络已启用</p>
+        </div>
+        
+        <div class="info">
+            <h3>🔗 技术信息</h3>
+            <p><strong>框架：</strong> React 19 + Vite 7 + Tailwind CSS</p>
+            <p><strong>部署：</strong> Cloudflare Pages</p>
+            <p><strong>域名：</strong> *.pages.dev</p>
+            <p><strong>构建时间：</strong> 2026年1月28日</p>
+        </div>
+    </div>
+</body>
+</html>
